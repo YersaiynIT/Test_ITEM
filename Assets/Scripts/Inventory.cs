@@ -22,7 +22,6 @@ public class Inventory
             return null;
         }
 
-        
         _item.transform.SetParent(null);
         Item selectedItem = _item;
         _item = null;
